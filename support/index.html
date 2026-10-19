@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>الدعم · لحاله | Lahala Support</title>
-<meta name="description" content="مساعدة في إعداد لحاله وتسجيل المدفوعات. Help with setting up Lahala and logging payments.">
+<title>الدعم · لحاله</title>
+<meta name="description" content="مساعدة في إعداد لحاله وتسجيل المدفوعات.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,7 +12,6 @@
 </head>
 <body>
 <div class="page">
-
 <main id="ar" dir="rtl" lang="ar">
   <header class="hero">
     <a class="brand" href="../">
@@ -21,7 +20,7 @@
     </a>
     <h1>الدعم</h1>
     <p>نقرأ كل رسالة تصلنا.</p>
-    <nav class="lang-switch"><a href="#en" lang="en">English</a></nav>
+    <nav class="lang-switch"><a href="en/" lang="en">English</a></nav>
   </header>
 
   <section class="card contact">
@@ -80,78 +79,7 @@
     <p>الإعدادات ← حذف كل البيانات. أو احذف التطبيق، فتُحذف كل بياناته من جهازك.</p>
   </section>
 </main>
-
-<hr class="divider">
-
-<section id="en" dir="ltr" lang="en">
-  <header class="hero">
-    <a class="brand" href="../">
-      <svg viewBox="183 212 658 588" aria-hidden="true"><path fill-rule="evenodd" transform="translate(-29 0)" d="M 352 212 H 672 A 140 140 0 0 1 812 352 V 600 C 812 680 830 750 870 800 C 810 795 772 760 760 700 L 692 756 L 623 700 L 555 756 L 486 700 L 418 756 L 349 700 L 281 756 L 212 700 V 352 A 140 140 0 0 1 352 212 Z M 468 420 H 664 A 48 48 0 0 1 664 516 H 468 A 48 48 0 0 1 468 420 Z M 290 468 A 50 50 0 1 0 390 468 A 50 50 0 1 0 290 468 Z"/></svg>
-      <span class="wordmark"><span class="ar" lang="ar">لحاله</span><span class="en">Lahala</span></span>
-    </a>
-    <h1>Support</h1>
-    <p>We read every message.</p>
-    <nav class="lang-switch"><a href="#ar" lang="ar">العربية</a></nav>
-  </header>
-
-  <section class="card contact">
-    <div class="contact-head">
-      <span class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg></span>
-      <div><h2>Email us</h2><p class="muted">For any question, problem or suggestion. We read every message.</p></div>
-    </div>
-    <a class="button block" href="mailto:mohamed.abdolraheem.55@gmail.com?subject=Lahala%20support"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg><span>Send an email</span></a>
-    <button class="email-chip" type="button" data-email="mohamed.abdolraheem.55@gmail.com" data-done="Copied ✓" aria-label="Copy: mohamed.abdolraheem.55@gmail.com">
-      <span class="address">mohamed.abdolraheem.55@gmail.com</span>
-      <span class="copy"><svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8"/></svg><svg class="done-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>
-    </button>
-    <p class="hint">When reporting a problem, include your bank and iPhone model, and a sample message with the numbers replaced by 0000.</p>
-  </section>
-
-  <p class="section-title">Common questions</p>
-
-  <section class="card">
-    <h2>How do I turn on automatic logging?</h2>
-    <p>Open Lahala, then Settings → Set up automatic logging, and follow the steps and the video. You create one automation in the Shortcuts app, once per iPhone.</p>
-  </section>
-
-  <section class="card">
-    <h2>I paid, but the payment didn't appear</h2>
-    <ul>
-      <li>In the automation, choose <strong>Run Immediately</strong>, not Run After Confirmation.</li>
-      <li>The trigger is <strong>Message Contains</strong> with exactly <strong>SAR</strong>.</li>
-      <li>In <strong>Log Transaction</strong>, the message is <strong>Shortcut Input</strong>.</li>
-      <li>After restarting your iPhone, unlock it once before payments are logged.</li>
-      <li>If your bank isn't supported yet, send us a sample message (see below).</li>
-    </ul>
-  </section>
-
-  <section class="card">
-    <h2>How do I add my earlier payments?</h2>
-    <p>In Settings → Past messages, tap “Add the import shortcut” to add the “Lahala Past Payments” shortcut, then “Import past SMS”. Running the import again never logs a payment twice.</p>
-  </section>
-
-  <section class="card">
-    <h2>I got a refund, but it doesn't show</h2>
-    <p>Some banks send refunds only as a notification from their app, with no SMS, and Lahala can't read those. Open the transaction and tap “Mark as refunded”.</p>
-  </section>
-
-  <section class="card">
-    <h2>How do I send a sample message from my bank?</h2>
-    <p>Copy the message, replace card and account numbers with 0000, remove any person's name, and email it to us. We add banks from real messages only.</p>
-  </section>
-
-  <section class="card">
-    <h2>Is my data safe?</h2>
-    <p>Yes. Everything stays on your iPhone, and we never receive your messages or amounts. Details are in the <a href="../privacy/#en">privacy policy</a>.</p>
-  </section>
-
-  <section class="card">
-    <h2>How do I delete my data?</h2>
-    <p>Settings → Delete all data. Or delete the app, which deletes all of its data from your iPhone.</p>
-  </section>
-</section>
-
-<footer><a href="../privacy/">الخصوصية · Privacy</a> &nbsp;·&nbsp; <a href="../support/">الدعم · Support</a><br>© 2026 لحاله · Lahala</footer>
+<footer><a href="../privacy/">الخصوصية</a> &nbsp;·&nbsp; <a href="../support/">الدعم</a><br>© 2026 لحاله</footer>
 </div>
 <script src="../assets/copy.js"></script>
 </body>

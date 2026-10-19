@@ -111,7 +111,6 @@ a:hover { text-decoration: underline; }
 .link-card .chevron { color: var(--text-secondary); }
 [dir="rtl"] .link-card .chevron { transform: scaleX(-1); }
 
-.divider { border: 0; border-top: 1px solid var(--separator); margin: 40px 0; }
 
 footer { text-align: center; color: var(--text-secondary); font-size: 13px; margin-top: 32px; }
 
